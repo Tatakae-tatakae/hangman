@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <main>
+        <h1>Movie Hangman</h1>
+        <h5><a href="https://mitchum.blog/how-to-build-hangman-with-javascript/">Back To Blog</a></h5>
+
+        <div id="gallows">
+            <img src="img/hangman0.png" id="hangmanImage" style="padding-left: 70px">
+        </div>
+
+        <div id="word"></div>
+
+        <div id="controls">
+            <input type="text" id="guessBox" placeholder="Guess Word">
+            <button id="guessWordButton" class="button" onclick="guessWord(game)">Guess Word</button>
+            <button id="newGameButton" class="button" onclick="newGame()">New Game</button>
+            <p>How Dare You Make Light Of Capital Punishment</p>
+        </div>
+
+        <div id="guesses"></div>
+    </main>
+    <script src="project3.js"></script>
+</body>
+</html>
